@@ -21,7 +21,7 @@ const Projects = () => {
       title: "Application web de gestion de stock ",
       description: "Stocker est une application web de gestion de stock développée avec Laravel. Elle permet de suivre les produits, les ventes, les achats et les fournisseurs via un tableau de bord dynamique. Le projet inclut aussi une version mobile connectée à l’API pour une gestion en temps réel, accessible et sécurisée.",
       technologies: ["Laravel ", "Blade", "MySQL ", "CSS " ,"JavaScript"],
-      image: "/public/images/stocker.png",
+      image: "/images/stocker.png",
       featured: true
     },
     {
@@ -29,7 +29,7 @@ const Projects = () => {
       title: " Application mobile – Stocker",
       description: "L'application mobile Stocker permet à l’administrateur de suivre l’état du stock, les produits, les ventes et les bénéfices en temps réel. Elle est connectée directement à l’API Laravel de l’application web, offrant une consultation rapide et fluide depuis un smartphone.",
       technologies: ["Flutter ", "Dart ", "Laravel API ", "HTTP package"],
-      image: "/public/images/mob.png",
+      image: "/images/mob.png",
      
       featured: true
     },
@@ -38,7 +38,7 @@ const Projects = () => {
       title: "gestion des stations-service ⛽",
       description: "Application e-commerce complète avec panier, paiements et gestion admin. Interface moderne et responsive avec authentification utilisateur.",
       technologies: ["React js", "Express js", "Api"],
-      image: "/public/images/station.png",
+      image: "/images/station.png",
     },
 
         {
@@ -46,7 +46,7 @@ const Projects = () => {
       title: "Site e-commerce – Vente de produits électroniques",
       description: "Développement d’un site WordPress avec catalogue produit, paiement en ligne et interface responsive pour une société spécialisée en électronique.",
       technologies: ["Wordpress", "WooCommerce"],
-      image: "/public/images/word.png",
+      image: "/images/word.png",
      
     },
         {
@@ -54,14 +54,14 @@ const Projects = () => {
       title: " Application mobile des horaires de prière (Adhan)",
       description: " Développement d’une application mobile avec Flutter permettant d’afficher les horaires précis des prières quotidiennes selon la localisation de l’utilisateur. Intégration d’une interface simple et intuitive, avec prise en charge des notifications pour l’Adhan.",
       technologies: ["flutter", "API", "dart"],
-      image: "/public/images/adhan.png",
+      image: "/images/adhan.png",
     },
             {
       id: 4,
       title: " Application météo",
       description: "Développement d’une application web avec React.js et CSS, affichant les conditions météorologiques en temps réel grâce à l’intégration d’une API météo. Interface simple, responsive et conviviale.",
       technologies: ["react js", "css", "API","html"],
-      image: "/public/images/weather.png",
+      image: "/images/weather.png",
       
     },
                 {
@@ -69,7 +69,7 @@ const Projects = () => {
       title: " Cosmic Tic-Tac-Toe",
       description: "Un jeu de morpion au design futuriste avec un thème cosmique, offrant deux modes de jeu : VS Player et VS Bot. L'interface épurée, avec un dégradé violet et une grille 3x3 interactive, permet de jouer et de réinitialiser la partie via un bouton dédié. Développé en typescript , css , ce projet met en avant mes compétences en conception d'interface et en logique de jeu.",
       technologies: ["typescript", "css"],
-      image: "/public/images/tictactoe.jpg",
+      image: "/images/tictactoe.jpg",
       
     },
                     {
@@ -77,7 +77,7 @@ const Projects = () => {
       title: "Calculatrice Moderne",
       description: "Une calculatrice numérique au design futuriste, dotée d'une interface épurée et intuitive. Elle permet des calculs de base (+, -, ×, /) avec un affichage clair et une section Historique pour suivre les opérations. Développée en HTML, CSS et JavaScript, cette application met en avant un style visuel soigné avec un liseré bleu néon, des boutons colorés (rouge pour C, vert pour =, doré pour les opérateurs), et une ergonomie optimisée.",
       technologies: ["html", "css" , "javascript"],
-      image: "/public/images/calculatrice.png",
+      image: "/images/calculatrice.png",
       
     }
   ]);

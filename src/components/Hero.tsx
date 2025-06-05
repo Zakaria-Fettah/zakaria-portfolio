@@ -11,7 +11,7 @@ const Hero = () => {
 
   const downloadCV = () => {
     // You can replace this URL with the actual path to Zakaria's CV
-    const cvUrl = "/public/cv/CV-ZAKARIA FETTAH.pdf";
+    const cvUrl = "/cv/CV-ZAKARIA FETTAH.pdf";
     const link = document.createElement('a');
     link.href = cvUrl;
     link.download = 'CV-ZAKARIA FETTAH';
@@ -28,7 +28,7 @@ const Hero = () => {
           <div className="mb-12">
             <div className="relative inline-block">
               <img
-  src="/public/images/profil.png"
+  src="/images/profil.png"
   alt="Zakaria - Développeur Web Full Stack"
   className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full mx-auto shadow-2xl border-4 border-white transition-transform duration-300 ease-in-out hover:scale-105 object-cover"
 />
